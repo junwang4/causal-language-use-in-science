@@ -2,9 +2,7 @@
 
 ## Usage
 
-STEP 1: Install bert-sklearn from:
-
-    https://github.com/junwang4/bert-sklearn-with-class-weight (for handling imbalanced classes)
+STEP 1: Install bert-sklearn from [https://github.com/junwang4/bert-sklearn-with-class-weight](https://github.com/junwang4/bert-sklearn-with-class-weight) (for handling imbalanced classes)
 
 
 STEP 2: Ready to go
@@ -17,7 +15,7 @@ STEP 2: Ready to go
 ## Performance
 1080TI; Ubuntu (your number may be different but should be similar)
 
-5-fold; 5 epochs
+5-fold; 5 epochs; BioBERT
 
 ```
        Acc     F1   F1_0   F1_1   F1_2   F1_3      P    P_0  ...    P_3      R    R_0    R_1    R_2    R_3  size  weight
