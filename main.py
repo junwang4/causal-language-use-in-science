@@ -20,11 +20,13 @@ pd.options.display.precision = 3
 np.set_printoptions(precision=3)
 
 
-BERT_MODEL_NAME = 'bert'
-BERT_MODEL_NAME = 'biobert'
 BERT_NAME_2_MODEL = {'bert' : 'bert-base-cased',
                      'biobert' : 'biobert-base-cased'
                     }
+
+BERT_MODEL_NAME = 'bert'
+BERT_MODEL_NAME = 'biobert'
+
 BERT_MODEL = BERT_NAME_2_MODEL[BERT_MODEL_NAME]
 
 PRJ = 'EMNLP'
