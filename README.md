@@ -3,14 +3,16 @@
 This is a collaborative project with the School of Information at Syracuse University. The goal of the project is to develop an automated NLP model that can identify causal language use in science findings, and to further study whether causal language use differs by countries and languages. We have developed an annotated corpus and trained a BioBert model with 0.88 macro-F1 score to categorize conclusion sentences into direct causal, conditional causal, correlational, and no relationships. We then applied this model to the observational studies in PubMed, and observed different levels of causal language use by authors from different countries and language backgrounds. This result challenges the notion of a shared consensus on causal language use in global science community.
 
 ### How to cite ###
-Yu, B., Li, Y. and Wang, J. (2019). Detecting Causal Language Use in Science Findings.  EMNLP 2019.
+Yu, B., Li, Y. and Wang, J. (2019). Detecting Causal Language Use in Science Findings. EMNLP 2019, pages 4656–4666, Hong Kong, China, November 3–7, 2019. [PDF](https://www.aclweb.org/anthology/D19-1473.pdf)
 
 ```
 @inproceedings{yu2019EMNLPCausalLanguage,
   title={Detecting Causal Language Use in Science Findings},
   author={Yu, Bei and Li, Yingya and Wang, Jun},
-  booktitle={Proceedings of EMNLP 2019},
-  year={2019}
+  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
+  pages={4656-4666},
+  year={2019},
+  url={https://www.aclweb.org/anthology/D19-1473.pdf}
 }
 ```
 
