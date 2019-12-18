@@ -15,6 +15,13 @@ Yu, B., Li, Y. and Wang, J. (2019). Detecting Causal Language Use in Science Fin
   url={https://www.aclweb.org/anthology/D19-1473.pdf}
 }
 ```
+## About the data
+```
+Label = 0 : No relationship (1356 cases)
+Label = 1 : Direct causal (494 cases)
+Label = 2 : Conditional causal (213 cases)
+Label = 3 : Correlational (998 cases)
+```
 
 ## Usage
 
