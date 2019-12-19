@@ -29,7 +29,8 @@ BERT_MODEL_NAME = 'biobert'
 BERT_MODEL = BERT_NAME_2_MODEL[BERT_MODEL_NAME]
 
 PRJ = 'EMNLP'
-NUM_CLASSES = 4
+label_name = {0:'none', 1:'causal', 2:'cond', 3:'corr'}
+NUM_CLASSES = len(label_name)
 
 K = 5
 EPOCHS = 3
@@ -228,7 +229,6 @@ def evaluate_and_error_analysis():
 <table cellpadding=10>
 """]
 
-    label_name = {0:'none', 1:'causal', 2:'cond', 3:'corr'}
 
     row = f'<tr><th><th><th colspan=4>Predicted</tr>\n<tr><td><td>'
     for i in range(NUM_CLASSES):
