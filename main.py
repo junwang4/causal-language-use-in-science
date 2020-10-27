@@ -33,7 +33,7 @@ label_name = {0:'none', 1:'causal', 2:'cond', 3:'corr'}
 NUM_CLASSES = len(label_name)
 
 K = 5
-EPOCHS = 3
+EPOCHS = 5
 
 DATA_DIR = 'data'
 MODEL_DIR = f'model/{PRJ}_{BERT_MODEL_NAME}'
@@ -131,7 +131,7 @@ def train_KFold_model():
         use_class_weight_for_unbalanced_data = True
         class_weight = get_class_weight(df['label']) if use_class_weight_for_unbalanced_data else None
 
-        val_frac = 0.1
+        val_frac = 0.05
         model = train_model(train_data, model_file, epochs=EPOCHS, val_frac=val_frac, class_weight=class_weight)
 
         X_test = test_data['sentence']
